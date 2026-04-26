@@ -113,7 +113,7 @@ def scrape_page(url: str, store_id: int) -> str | None:
     return None
 
 
-def run(max_pages: int = 5):
+def run(max_pages=None):
     """
     Main entry point.
     max_pages: how many pages to scrape (12 products each).
